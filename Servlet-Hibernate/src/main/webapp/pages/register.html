@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register Person</title>
+<link rel="stylesheet" href="../bootStrap/css/bootstrap.css">
+
+<link rel="stylesheet" href="../bootstrap/css/mdb.css">
+<style>
+input {
+	height: 40px;
+	width: 200px;
+	margin-bottom: 5px;
+	border: medium;
+}
+</style>
+</head>
+<body >
+	<div class="navbar bg-primary p-2 text-white">
+		<h1>Register form</h1>
+	</div>
+	<form action="register">
+		<div
+			class="container d-flex flex-row align-items-center justify-content-center ">
+			<div class="card mt-5 w-50  ">
+				<div class="card-header text-white bg-primary">
+					<h3>Register here</h3>
+				</div>
+				<div class="card-body  ">
+					<div
+						class="d-flex flex-column align-items-center justify-content-center  ">
+
+						<div>
+							<label>FirstName : </label> <input type="text" name="f"
+								placeholder="First name.." required>
+						</div>
+						<div>
+							<label>LastName :</label> <input type="text" name="l"
+								placeholder="Last name.." required>
+						</div>
+						<div>
+							<label>Email:</label> <input type="email" name="e"
+								placeholder="Email.." required>
+						</div>
+						<div>
+							<label>Age:</label> <input type="text" name="a"
+								placeholder="Age..">
+						</div>
+						<div>
+							<label>Id card :</label> <input type="text" name="i"
+								placeholder="Id Card..">
+						</div>
+						<div>
+							<label>PhoneNo :</label> <input type="text" name="ph"
+								placeholder="Phone Number.." required>
+						</div>
+						<div>
+							<label>Address :</label> <input type="text" name="ad"
+								placeholder="Address.." required>
+						</div>
+						<div>
+							<label>Password :</label> <input type="password" name="pw"
+								placeholder="Password.." required>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-footer bg-primary text-center">
+					<input type="submit" class="btn btn-success">
+				</div>
+			</div>
+		</div>
+
+
+	</form>
+</body>
+</html>
