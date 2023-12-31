@@ -1,0 +1,16 @@
+.bg-custom {
+	background: #025c00;
+}
+
+.c-head {
+	/* background: linear-gradient(45deg, yellow, #00675a); */
+}
+
+body {
+	background-image: radial-gradient(circle, #cdffc7, #c1fed6, #b9fce3, #b8faed, #bbf6f4);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+img{
+	border: 1px solid red;
+}
